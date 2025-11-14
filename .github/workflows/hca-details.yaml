@@ -12,4 +12,9 @@ jobs:
         sudo su
         ls -la /opt/hca
         cat /opt/hca/.settings
+    - name: cat logs
+      run: |
+        sudo su
+        ls -la /opt/hca/logs
+        cat /opt/hca/logs
         
