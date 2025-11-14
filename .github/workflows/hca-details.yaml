@@ -1,0 +1,14 @@
+name: Create VPS
+on:
+  workflow_dispatch:
+
+jobs:
+  start-vps:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: print version
+      run: |
+        sudo su
+        ls -la /opt/hca
+        
