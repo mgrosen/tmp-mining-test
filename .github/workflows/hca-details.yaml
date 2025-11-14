@@ -16,5 +16,5 @@ jobs:
       run: |
         sudo su
         ls -la /opt/hca/logs
-        cat /opt/hca/logs
+        cat /opt/hca/logs/hosted-compute-agent.log
         
